@@ -1,0 +1,11 @@
+body {
+    margin: 50px;
+    /* Espacio alrededor de toda la página */
+    background-color: #f4f4fc;
+    /* Color de fondo*/
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+

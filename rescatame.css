@@ -1,0 +1,60 @@
+body {
+    margin: 50px; /* Espacio alrededor de toda la página */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4fc; /* Color de fondo*/
+}
+
+.nav-background {
+    padding: 10px 0;
+
+    position: fixed; /* Fija la barra en la pantalla */
+    top: 0; /* Asegura que esté en la parte superior */
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho de la página */
+    z-index: 1000; /* Se asegura de que esté por encima de otros elementos */
+    background-color: #10b8e3; /* Color de fondo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para destacarla */
+}
+
+/* Especificaciones de la barra*/
+
+.nav-item a {
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: #b3e9ff; /* Color al pasar el mouse */
+}
+
+
+
+
+
+
+
+:root {
+    --blue: #09f;
+}
+
+.blue {
+    background: var(--blue);
+}
+
+.blue-lighter {
+    background: color-mix(in srgb, var(--blue), white 75%);
+}
+
+.blue-light {
+    background: color-mix(in srgb, var(--blue), white);
+}
+
+.blue-dark {
+    background: color-mix(in srgb, var(--blue), black 25%);
+}
+
+.blue-darker {
+    background: color-mix(in srgb, var(--blue), black);
+}

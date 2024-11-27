@@ -6,7 +6,6 @@ body {
     /* Color de fondo*/
 }
 
-
 .card-container1 {
     display: flex;
     gap: 1rem;
@@ -49,8 +48,6 @@ body {
     /* Ocupa todo el ancho de la página */
     z-index: 1000;
     /* Se asegura de que esté por encima de otros elementos */
-    background-color: #faf8f8;
-    /* Color de fondo */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     /* Sombra para destacarla */
 }

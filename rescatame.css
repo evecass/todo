@@ -1,60 +1,99 @@
 body {
     margin: 50px; /* Espacio alrededor de toda la página */
     font-family: Arial, sans-serif;
-    background-color: #f4f4fc; /* Color de fondo*/
+    background-color: #fbffdf; /* Color de fondo*/
+    width:1050px;
+    margin:50px auto;
 }
 
+/* Barra */
 .nav-background {
     padding: 10px 0;
-
     position: fixed; /* Fija la barra en la pantalla */
     top: 0; /* Asegura que esté en la parte superior */
     left: 0;
     width: 100%; /* Ocupa todo el ancho de la página */
     z-index: 1000; /* Se asegura de que esté por encima de otros elementos */
-    background-color: #10b8e3; /* Color de fondo */
+    background-color:  #f8c6a0; /* Color de fondo */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para destacarla */
 }
+
 
 /* Especificaciones de la barra*/
 
 .nav-item a {
-    color: white;
+    color: rgb(8, 8, 8); /* Color de las letras */
     font-weight: bold;
     padding: 10px 15px;
     text-decoration: none;
 }
 
 .nav-item a:hover {
-    color: #b3e9ff; /* Color al pasar el mouse */
+    color: #7a7c7d; /* Color al pasar el mouse */
 }
 
 
+h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5;
+  }
 
+/* Especificaciones del video */
 
-
-
-
-:root {
-    --blue: #09f;
+  .video-container {
+    position: relative;
+    padding-bottom: 70%; 
+    height: 0;
+    overflow: hidden;
 }
 
-.blue {
-    background: var(--blue);
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.blue-lighter {
-    background: color-mix(in srgb, var(--blue), white 75%);
+    /* Para el texto del cuadro de texto */
+    .mb-3 {
+      background-color: #fefefe; 
+      color: black;
+      border-radius: 10px; /* Bordes redondeados */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    }
+
+  /* Para el titulo del cuadro de texto */
+  .card-header{
+    background-color: #c35d19;
+    color: rgb(255, 255, 255);
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+
+
+
+  .card .row {
+    display: flex; /* Flexbox para alinear horizontalmente */
+    align-items: center; /* Centra verticalmente los contenidos */
+    justify-content: space-between; /* Espacio entre las columnas */
 }
 
-.blue-light {
-    background: color-mix(in srgb, var(--blue), white);
+.card-body {
+    text-align: left; /* Para que el texto quede alineado a la izquierda */
 }
 
-.blue-dark {
-    background: color-mix(in srgb, var(--blue), black 25%);
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
-.blue-darker {
-    background: color-mix(in srgb, var(--blue), black);
-}
+/* Color naranja - #f8c6a0; */
+/* Color rojo - #ff9494; */
+/* Color amarillo - #fbffdf; */
+  

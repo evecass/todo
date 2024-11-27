@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -15,15 +15,13 @@
 </head>
 
 <body>
+        <h1>A D Ó P T A N O S</h1>
 
-    <h1>A D O P T A N O S</h1>
-    <br>
     <p>
         Si estás interesado en adoptar a uno de nuestros animales, te invitamos a completar el formulario que
         encontrarás a continuación. Una vez enviado, nos pondremos en contacto contigo para coordinar una serie de
         entrevistas. Estas nos permitirán asegurarnos de que el animal encuentre un hogar adecuado y lleno de amor.
     </p>
-    <br>
     <p>¡Gracias por tu interés en brindarles una segunda oportunidad!</p>
 
 
@@ -31,13 +29,13 @@
         <fieldset>
 
             <div class="mb-3">
-                <label class="form-label" for="NombreLibro">Nombre completo</label>
+                <label class="form-label" for="Nombre">Nombre completo</label>
                 <input type="text" class="form-control" id="Nombre" placeholder="Favor de llenar el campo">
             </div>
 
             <div class="mb-3">
-                <label class="form-label" for="FechaInicio">Fecha de nacimiento</label>
-                <input type="date" class="form-control" id="FechaNacimiento" placeholder="Favor de llenar el campo">
+                <label class="form-label" for="Fecha">Fecha de nacimiento</label>
+                <input type="date" class="form-control" id="Fecha" placeholder="Favor de llenar el campo">
             </div>
 
             <div class="mb-3">
@@ -47,8 +45,8 @@
             </div>
 
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
+                <label for="Correo" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="Correo" placeholder="nombre@gmail.com">
             </div>
 
             <div class="mb-3">
@@ -57,7 +55,7 @@
             </div>
 
             <div>
-                <label for="formFile" class="form-label">¿Por quién te sientes interesado?</label>
+                <label for="Selecciona" class="form-label">¿Por quién te sientes interesado?</label>
 
                 <select class="form-select" aria-label="Default select example">
                     <option selected>Abre el menú de las opciones</option>
@@ -66,22 +64,19 @@
                     <option value="3">Otros</option>
                 </select>
             </div>
-
+            <br>
             <div class="mb-3">
                 <label class="form-label" for="NombreLibro">¿Tienes en mente a alguien en especifico?</label>
                 <input type="text" class="form-control" id="Nombre"
                     placeholder="Escribe el nombre del animalito que te interesó">
             </div>
-
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
                     Aceptación de términos y condiciones del refugio
                 </label>
             </div>
-
             <br>
-
             <button type="button" class="btn btn-primary" id="Button" onclick="AddData()">Enviar</button>
 
         </fieldset>
@@ -89,6 +84,11 @@
 
     </form>
 
+   <script>
+    function AddData() {
+        alert("¡Gracias por enviar tu formulario! Pronto nos pondremos en contacto contigo.");
+    }
+   </script> 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
